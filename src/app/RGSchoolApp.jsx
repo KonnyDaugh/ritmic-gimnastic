@@ -2,6 +2,7 @@ import './RGSchoolApp.css';
 import SchoolAbout from '../pages/SchoolAbout';
 import CompetitionsList from '../components/CompetitionsList';
 import CoachesList from '../components/CoachesList';
+import Gallery from '../components/Gallery';
 
 function RGSchoolApp() {
 
@@ -11,6 +12,7 @@ function RGSchoolApp() {
         <SchoolAbout />
         <CompetitionsList />
         <CoachesList />
+        <Gallery />
     </div>
   )
 }
