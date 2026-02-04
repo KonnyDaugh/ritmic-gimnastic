@@ -3,6 +3,8 @@ import SchoolAbout from '../pages/SchoolAbout';
 import CompetitionsList from '../components/CompetitionsList';
 import CoachesList from '../components/CoachesList';
 import Gallery from '../components/Gallery';
+import GymnastList from '../components/GymnastList';
+import VideoGallery from '../components/VideoGallery'
 
 function RGSchoolApp() {
 
@@ -13,6 +15,8 @@ function RGSchoolApp() {
         <CompetitionsList />
         <CoachesList />
         <Gallery />
+        <GymnastList />
+        <VideoGallery />
     </div>
   )
 }

@@ -1,0 +1,9 @@
+.video-gallery {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.video-item {
+  text-align: center;
+}
