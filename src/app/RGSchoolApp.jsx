@@ -1,6 +1,6 @@
 import './RGSchoolApp.css';
-import GymnastList from '../components/GymnastList';
 import SchoolAbout from '../pages/SchoolAbout';
+import CompetitionsList from '../components/CompetitionsList';
 
 function RGSchoolApp() {
 
@@ -8,9 +8,9 @@ function RGSchoolApp() {
     <div>
         <h1>RG School App</h1>
         <SchoolAbout />
-        <GymnastList />
+        <CompetitionsList />
     </div>
   )
 }
 
-export default RGSchoolApp
+export default RGSchoolApp;
