@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import RGSchoolApp from './RGSchoolApp.jsx'
+import RGSchoolApp from './app/RGSchoolApp.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
