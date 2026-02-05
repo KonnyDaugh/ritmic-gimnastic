@@ -1,8 +1,7 @@
 .navigation {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 40px;
+  gap: 20px;
+  padding: 16px;
 }
 
 .logo {
@@ -10,19 +9,13 @@
   font-size: 20px;
 }
 
-.nav-links {
-  display: flex;
-  gap: 20px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.nav-links li {
-  cursor: pointer;
+.nav-link {
+  text-decoration: none;
+  color: #444;
   font-weight: 500;
 }
 
-.nav-links li:hover {
-  text-decoration: underline;
+.nav-link.active {
+  color: #c2185b;
+  border-bottom: 2px solid #c2185b;
 }
