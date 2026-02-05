@@ -9,7 +9,7 @@ import VideoGallery from '../components/VideoGallery'
 function RGSchoolApp() {
 
   return (
-    <div>
+    <div className='app-container' >
         <h1>RG School App</h1>
         <SchoolAbout />
         <CompetitionsList />

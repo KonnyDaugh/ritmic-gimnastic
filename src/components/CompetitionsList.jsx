@@ -3,7 +3,7 @@ import { competitions } from "../data/competitions";
 
 function CompetitionsList() {
     return (
-        <div>
+        <div className="card" >
             <h2>Соревнования</h2>
             <ul>
                 {competitions.map(comp => (

@@ -4,7 +4,7 @@ import './VideoGallery.css';
 
 function VideoGallery() {
     return (
-        <div>
+        <div className="card">
             <h2>Видео</h2>
             <div className="video-gallery" >
                 {videos.map(video => (

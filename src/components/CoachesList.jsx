@@ -3,7 +3,7 @@ import { schoolInfo } from "../data/school";
 
 function CoachesList() {
     return (
-        <div>
+        <div className="card">
             <h2>Наши тренеры</h2>
             <ul>
                 {schoolInfo.coaches.map(coach => (

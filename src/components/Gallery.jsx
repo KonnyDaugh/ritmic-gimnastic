@@ -4,7 +4,7 @@ import './Gallery.css';
 
 function Gallery() {
     return (
-        <div>
+        <div className="card">
             <h2>Фотогалерея</h2>
             <div className="gallery" >
                 {galleryImages.map(img => (

@@ -4,7 +4,7 @@ import { gymnasts } from "../data/gymnasts";
 
 function GymnastList() {
     return (
-        <div>
+        <div className="card" >
             <h2>Список гимнасток</h2>
             <ul>
                 {gymnasts.map(g => (
