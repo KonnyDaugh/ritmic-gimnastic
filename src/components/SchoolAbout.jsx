@@ -10,7 +10,7 @@ function SchoolAbout() {
             <h2>Тренеры</h2>
             <ul>
                 {schoolInfo.coaches.map(coach => (
-                    <li>
+                    <li key={coach.id}>
                         {coach.name} - опыт {coach.experience} лет
                     </li>
                 ))}

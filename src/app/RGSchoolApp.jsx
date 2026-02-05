@@ -1,6 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
 import './RGSchoolApp.css';
-import Navigation from '../components/Navigation';
+
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 import SchoolAboutPage from '../pages/SchoolAboutPage';
 import CoachesPage from '../pages/CoachesPage';
@@ -12,16 +14,20 @@ import VideosPage from '../pages/VideosPage';
 const RGSchoolApp = () => {
   return (
     <div className="app-container">
-      <Navigation />
+      <Header />
 
-      <Routes>
-        <Route path="/" element={<SchoolAboutPage />} />
-        <Route path="/gymnasts" element={<GymnastsPage />} />
-        <Route path="/competitions" element={<CompetitionsPage />} />
-        <Route path="/coaches" element={<CoachesPage />} />
-        <Route path="/gallery" element={<GalleryPage />} />
-        <Route path="/videos" element={<VideosPage />} />
-      </Routes>
+      <main className='main-content' >
+        <Routes>
+            <Route path="/" element={<SchoolAboutPage />} />
+            <Route path="/gymnasts" element={<GymnastsPage />} />
+            <Route path="/competitions" element={<CompetitionsPage />} />
+            <Route path="/coaches" element={<CoachesPage />} />
+            <Route path="/gallery" element={<GalleryPage />} />
+            <Route path="/videos" element={<VideosPage />} />
+        </Routes>
+      </main>
+
+      <Footer />
     </div>
   );
 };
