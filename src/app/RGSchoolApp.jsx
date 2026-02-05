@@ -4,13 +4,14 @@ import CompetitionsList from '../components/CompetitionsList';
 import CoachesList from '../components/CoachesList';
 import Gallery from '../components/Gallery';
 import GymnastList from '../components/GymnastList';
-import VideoGallery from '../components/VideoGallery'
+import VideoGallery from '../components/VideoGallery';
+import Navigation from '../components/Navigation';
 
 function RGSchoolApp() {
 
   return (
     <div className='app-container' >
-        <h1>RG School App</h1>
+        <Navigation />
         <SchoolAbout />
         <CompetitionsList />
         <CoachesList />
