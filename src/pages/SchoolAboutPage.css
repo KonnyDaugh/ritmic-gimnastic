@@ -24,6 +24,7 @@
 /* About */
 .about {
   max-width: 800px;
+  margin: 0 auto;
 }
 
 .about h2 {
@@ -45,5 +46,6 @@
 }
 
 .rules li {
+  list-style: none;
   margin-bottom: 8px;
 }

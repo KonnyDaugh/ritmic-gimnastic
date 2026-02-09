@@ -1,0 +1,13 @@
+/* базовый контейнер для всех страниц */
+body {
+  background-image: url("https://sc-atmosfera.ru/wp-content/uploads/2023/05/image1-1536x1024.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}

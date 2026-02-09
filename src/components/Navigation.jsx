@@ -7,7 +7,6 @@ function Navigation() {
 
   return (
     <nav className="navigation">
-      <span className="logo">RG School</span>
       <NavLink to="/" end className={getLinkClass}>О школе</NavLink>
       <NavLink to="/gymnasts" className={getLinkClass}>Гимнастки</NavLink>
       <NavLink to="/competitions" className={getLinkClass}>Соревнования</NavLink>
